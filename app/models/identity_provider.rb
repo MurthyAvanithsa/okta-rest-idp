@@ -1,0 +1,2 @@
+class IdentityProvider < ApplicationRecord
+end

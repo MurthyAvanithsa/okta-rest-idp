@@ -1,0 +1,12 @@
+<%# <form action="providers/save" method="post" accept-charset="UTF-8" >
+  <label for="fname">First name:</label><br>
+  <textarea name="samlmeta" rows="10" cols="30"></textarea>
+  <input type="submit" value="Submit">
+</form> %>
+
+
+<%= form_with url: "/providers/save", method: :post do |form| %>
+  <%= form.label :query, "Search for:" %>
+  <%= form.text_area :samlmeta %>
+  <%= form.submit "Search" %>
+<% end %>

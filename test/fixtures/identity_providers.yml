@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sp_meta: MyText
+  idp_okta_id: MyString
+
+two:
+  name: MyString
+  sp_meta: MyText
+  idp_okta_id: MyString
